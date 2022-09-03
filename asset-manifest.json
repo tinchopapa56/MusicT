@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MusicT/static/css/main.8caf95f0.css",
+    "main.js": "/MusicT/static/js/main.a7436536.js",
+    "static/media/clapton.jpg": "/MusicT/static/media/clapton.27392cacfb4dc031ce3b.jpg",
+    "static/media/pic (9).jpg": "/MusicT/static/media/pic (9).27392cacfb4dc031ce3b.jpg",
+    "static/media/berklee.jpg": "/MusicT/static/media/berklee.3a73e5eb8e0b6240f891.jpg",
+    "static/media/do.mp3": "/MusicT/static/media/do.431142ab83945428dc62.mp3",
+    "static/media/fa.mp3": "/MusicT/static/media/fa.af3f725eb04db30e3908.mp3",
+    "static/media/la.mp3": "/MusicT/static/media/la.913443f1426c2c688e11.mp3",
+    "static/media/mi.mp3": "/MusicT/static/media/mi.c874d11c1af072e95002.mp3",
+    "static/media/re.mp3": "/MusicT/static/media/re.10522ea428cd5f9d833b.mp3",
+    "static/media/si.mp3": "/MusicT/static/media/si.b12e5f0b4433ebcec1a7.mp3",
+    "static/media/sol.mp3": "/MusicT/static/media/sol.a73982d3aa2317ebb1c6.mp3",
+    "static/media/pic (3).jpg": "/MusicT/static/media/pic (3).8a982e4bd83a51293b64.jpg",
+    "static/media/clapton2.jpg": "/MusicT/static/media/clapton2.7b4cf504fec6c285972e.jpg",
+    "index.html": "/MusicT/index.html",
+    "main.8caf95f0.css.map": "/MusicT/static/css/main.8caf95f0.css.map",
+    "main.a7436536.js.map": "/MusicT/static/js/main.a7436536.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8caf95f0.css",
+    "static/js/main.a7436536.js"
+  ]
+}
