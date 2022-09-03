@@ -1,0 +1,10 @@
+.main-rhythm-hub {
+    text-align: center;
+    margin:0;
+    animation: goDown 1s ease 1 forwards;
+    height: 90vh;
+}
+@keyframes goDown{
+    from {transform: translateY(-10em)} 
+    to {transform: translateY(0.5em)}
+}

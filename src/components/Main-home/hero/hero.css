@@ -1,0 +1,112 @@
+.hero-container{
+    /* margin-bottom: 10em; */
+    padding: 1em 1em 3em 1em;
+    /* height: 100vh; */
+    background-image: url("../../../imgs/hero/pic (3).jpg");
+    background-size: cover;
+}
+
+.hero-h1 {
+    text-align: center;
+    margin:0;
+    animation: goDown 2s ease 1 forwards;
+}
+
+/* HERO DISPOITION */
+.hero-2sections{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4em;
+}
+
+/* Hero - section1 - list*/
+.hero-list-ul{
+    display: flex;
+    flex-direction: column;
+}
+.hero-list-li{
+    padding: 1.25em 0;
+    font-size: 1.35em;
+    animation: comeLeft 2s ease-in-out forwards;
+}
+
+.hero-list-h2{
+    /* padding: 0.5em 0; */
+    font-size: 2em;
+    animation: appear 5s ease-in-out, colorchange 2s ease-in-out alternate infinite;
+}
+
+.hero-section2-img{
+    width: 20em;
+    height: 20em;
+    background-image: url("../../../imgs/hero/pic (9).jpg");
+    background-size: cover;
+    border-radius: 50%;
+    animation: rotate 5s ease-in-out 1.5s infinite;
+}
+
+
+
+/*ANIMATIONS*/
+@keyframes comeLeft {
+    from{transform: translateX(-30em);}
+    to{transform: translateX(1em);}
+}
+@keyframes appear {
+    from{opacity: 0;}
+    to{opacity: 1 }
+}
+@keyframes colorchange {
+    from{color: black}
+    to{color: #87BFFF}
+}
+@keyframes goDown{
+    from {transform: translateY(-10em)} 
+    to {transform: translateY(0.5em)}
+}
+@keyframes rotate{
+    from {transform: rotateY(0deg)} 
+    to {transform: rotateY(360deg)}
+}
+
+/* MEDIA QUERIES*/
+
+
+@media (max-width: 630px) { /*HASTA 400px y se rompe la img/div*/
+    .hero-list-h2{
+        padding: 0.5em 0;
+        font-size: 1em;
+        animation: appear 3s ease-in-out, colorchange 3s ease-in-out alternate infinite;
+    }
+    .hero-2sections{
+        margin-top: 2em;
+    }
+    .hero-list-li{
+    padding: 0.75em 0;
+    font-size: 1em;
+    width: 180px;
+    }
+    .hero-section2-img{
+        width: 12em;
+        height: 12em;
+    }
+}
+
+@media (max-width:400px){
+    
+    .hero-list-li{
+        padding: 0.5em 0;
+        font-size: 0.75em;
+        width: 180px;
+        }
+    .hero-list-h2{
+        padding: 0.25em 0;
+        font-size: 0.75em;
+        animation: appear 3s ease-in-out, colorchange 3s ease-in-out alternate infinite;
+    }
+    .hero-section2-img{
+        width: 5em;
+        height: 5em;
+    }
+}

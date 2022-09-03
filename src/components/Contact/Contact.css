@@ -1,0 +1,78 @@
+.main-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+    height: 90vh;
+}
+.contact-h1{
+    animation: goDown 1s ease 1 forwards;
+}
+@keyframes goDown{
+    from {transform: translateY(-10em)} 
+    to {transform: translateY(0.5em)}
+}
+.contact-form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 1.2rem;
+    /* margin: 0 auto; */
+    padding: 1em;
+    background-color: #87BFFF;
+    border-radius: 5%;
+    width: 30em;
+    height: 15em;
+
+    animation: growB 1s ease 1 forwards;
+}
+@keyframes growB{
+    from {font-size: 0.2em} 
+}
+.contact-form-Icontainer{
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+}
+.contact-form-input{
+    /* background-color: #ece1b5; */
+    /* background-color: lightblue; */
+    border: none;
+    padding: 0.5em;
+    margin: 0.9em 0;
+}
+.contact-form-button{
+    /* background-color: lightblue; */
+    background-color: black;
+    opacity: 0.85;
+    color: white;
+    font-size: 1.1em;
+
+    border: none;
+    border-radius: 30%;
+    height: 8em;
+    width: 8em;
+    padding: 2em;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.contact-form-button:hover{
+    background-color: black;
+    color: white;
+    opacity: 1;
+    padding: 2.5em;
+    font-size: 1.2em;
+}
+
+@media (max-width: 600px){
+    .contact-form{
+        max-width: 20em;
+        font-size: 0.9rem;
+    }
+    .contact-form-Icontainer{
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+    }
+}

@@ -1,0 +1,36 @@
+.ear3-main-container{
+    margin: 0;
+    padding: 2em;
+}
+.ear3-main-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90%;
+}
+.ear3-ul{
+    display: flex;
+}
+                    .ear3-li{
+                        list-style: none;
+                        margin: 0 0.75em;
+                        transition: 0.5s ease-in-out;
+                        cursor: pointer
+                    }
+                    .ear3-li:hover{
+                        color: #ddca7f;
+                        font-size: 1.5rem;
+                    }
+.main-grid{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 12rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+.h2-subtitle{
+    width: 8em;
+    margin: 1em auto;
+}

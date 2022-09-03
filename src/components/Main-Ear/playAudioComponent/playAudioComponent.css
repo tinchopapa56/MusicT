@@ -1,0 +1,32 @@
+.excercise-page{
+    max-width: 80%;
+}
+
+.exercise-content{
+    display: flex;
+    max-width: 100%;
+}
+.exercise-h3{
+    max-width: 100%;
+    font-size: 1.15em;
+}
+
+.exercise-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5em;
+}
+
+#button{
+    width: 100%;
+    font-size: 450%;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    color:#87BFFF;
+}
+
+#button:hover{
+    color:black;
+    font-size: 500%;
+}

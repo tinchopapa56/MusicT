@@ -1,0 +1,12 @@
+.mainEar-container{
+    margin: 2.5em;
+    height: 100%;
+}
+
+.mainEar-grid{
+    display: grid;
+    /* margin: 0.5em; */
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem,1fr));
+    grid-template-rows: 1fr;
+}

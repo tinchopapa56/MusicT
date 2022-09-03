@@ -1,0 +1,23 @@
+.ear2-main-container{
+    margin: 0;
+    padding: 2em;
+}
+.main-grid{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 12rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+.main-grid-element{
+    display: flex;
+    padding: 1em;
+}
+.h2-subtitle{
+    width: 8em;
+    margin: 1em auto;
+    color: #87BFFF;
+}

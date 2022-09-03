@@ -1,0 +1,18 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    border-radius: 12%;
+    background-color: #87BFFF;
+}
+
+/* EL CSS DE LA IMG EN LA CARTA ESTA EN REACT, inline style */
+.card-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.card-h4-container{
+    margin-left: 0.5em;
+}

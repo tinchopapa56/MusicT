@@ -1,0 +1,8 @@
+body{
+    margin:0;
+    background-image: url("./imgs/hero/pic (3).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-color: aqua; */
+}

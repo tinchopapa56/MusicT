@@ -1,0 +1,57 @@
+.main-container{
+    margin: 0; 
+    background-color: #87BFFF ;
+}
+
+.main-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 2em 0 2em;
+    padding: 2em;
+    font-size: 1rem;
+    background-image: url("../../../imgs/hero/pic (3).jpg");
+    background-size: cover;
+}
+
+.main-article-text_container{
+    max-width: 60ch;
+    margin: 0 1em;
+    padding: 1em;
+    background-color: #ADD7F6;
+}
+.main-img{
+    margin: 0 1em;
+    max-width: 30%;
+    border-radius: 5%;
+    animation: shake 2s ease-in-out infinite alternate;
+}
+@keyframes shake{
+    from{transform: translateX(-0.75em);}
+    to{transform: translateX(0.75em)}
+}
+
+/* MEDIA QUERIES*/
+
+
+
+@media (max-width: 900px) {
+    .main-article{
+        font-size: 0.85rem;
+    }
+}
+@media (max-width: 780px) {
+    .main-article{
+        font-size: 0.68rem;
+    }
+}
+@media (max-width: 600px) {
+    .main-article{
+        font-size: 0.5rem;
+    }
+}
+@media (max-width: 470px) {
+    .main-article{
+        font-size: 0.36rem;
+    }
+}
