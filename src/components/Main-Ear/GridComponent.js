@@ -5,11 +5,11 @@ const GridComponent = (props) => {
     const notesToString = (arrNotes) => {
         const notesToStringArr = [];
         const mapeo = arrNotes.map( (note)=> {
-            let inString = note.src.slice(35,37); //"http://localhost:3000/static/media/do.431142ab83945428dc62.mp3"
-            notesToStringArr.push(inString); 
+            let inString = note.src.slice(51,53).toUpperCase(); //"http://localhost:3000/static/media/do.431142ab83945428dc62.mp3"
+            notesToStringArr.push(inString);
         })
-        const excerciseStrings = notesToStringArr.join()
-    console.log(excerciseStrings);
+        const excerciseStrings = notesToStringArr.join(" ")
+        console.log(excerciseStrings);
     return excerciseStrings;
     }
         //Harcoded:
