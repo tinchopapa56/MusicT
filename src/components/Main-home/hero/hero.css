@@ -1,7 +1,6 @@
 .hero-container{
     /* margin-bottom: 10em; */
     padding: 1em 1em 3em 1em;
-    /* height: 100vh; */
     background-image: url("../../../imgs/hero/pic (3).jpg");
     background-size: cover;
     /* font-size: 1.75rem; */
@@ -74,7 +73,12 @@
 
 /* MEDIA QUERIES*/
 
-
+@media (min-width: 1441px) { /*HASTA 400px y se rompe la img/div*/
+    .hero-container{
+        font-size: 1.65rem;
+    }
+    
+}
 @media (max-width: 630px) { /*HASTA 400px y se rompe la img/div*/
     .hero-list-h2{
         padding: 0.5em 0;
@@ -96,7 +100,6 @@
 }
 
 @media (max-width:400px){
-    
     .hero-list-li{
         padding: 0.5em 0;
         font-size: 0.75em;
