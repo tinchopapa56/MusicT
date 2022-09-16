@@ -20,7 +20,7 @@ export default function Navbar() {
 
             <section className="navbar-sectionA"> 
                 <h2 className="navbar-title">Musicianship Training</h2>
-                <p className="navbar-slogan">Learn by Ear and Feel</p>
+                <p className="navbar-slogan" style={{fontSize:"1rem"}}>Learn by Ear and Feel</p>
             </section> 
             <svg onClick={toggleNavbar} className="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                     <path d={svgPath}/>

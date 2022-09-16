@@ -4,10 +4,17 @@
     align-items: center;
     flex-wrap: wrap;
     max-width: 100%;
+    /* font-size: 1.25rem; */
 
     margin: 0;
     background-color: #87BFFF;
     border-bottom: 5px solid #ddd1a1;
+
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99; */
 }
     .hamburger{
         display: none;
@@ -49,14 +56,14 @@
     display: inline-block;
     list-style: none;
     margin: 0 0.75em;
-    transition: 0.3s ease-in;
+    transition: ease-in;
     cursor: pointer;
     color: black;
 }
 .navbar-li:hover{
     color: white;
-    font-size: 1.01em;
 }
+
 @media (min-width: 1281px){
     .navbar{
         font-size: 1.3125rem;
@@ -64,6 +71,7 @@
     .navbar-slogan{
         font-size: 1rem;
     }
+
 }
 @media (max-width:825px) {
 
