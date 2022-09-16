@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MusicT/static/css/main.8caf95f0.css",
+    "main.css": "/MusicT/static/css/main.a95c0977.css",
     "main.js": "/MusicT/static/js/main.18b95720.js",
     "static/media/clapton.jpg": "/MusicT/static/media/clapton.27392cacfb4dc031ce3b.jpg",
     "static/media/pic (9).jpg": "/MusicT/static/media/pic (9).27392cacfb4dc031ce3b.jpg",
@@ -15,11 +15,11 @@
     "static/media/pic (3).jpg": "/MusicT/static/media/pic (3).8a982e4bd83a51293b64.jpg",
     "static/media/clapton2.jpg": "/MusicT/static/media/clapton2.7b4cf504fec6c285972e.jpg",
     "index.html": "/MusicT/index.html",
-    "main.8caf95f0.css.map": "/MusicT/static/css/main.8caf95f0.css.map",
+    "main.a95c0977.css.map": "/MusicT/static/css/main.a95c0977.css.map",
     "main.18b95720.js.map": "/MusicT/static/js/main.18b95720.js.map"
   },
   "entrypoints": [
-    "static/css/main.8caf95f0.css",
+    "static/css/main.a95c0977.css",
     "static/js/main.18b95720.js"
   ]
 }
