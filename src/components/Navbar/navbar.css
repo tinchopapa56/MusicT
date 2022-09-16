@@ -7,14 +7,7 @@
 
     margin: 0;
     background-color: #87BFFF;
-    /* border-bottom: 3px solid #d3bf6f; */
     border-bottom: 5px solid #ddd1a1;
-
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 99; */
 }
     .hamburger{
         display: none;
@@ -64,7 +57,14 @@
     color: white;
     font-size: 1.01em;
 }
-
+@media (min-width: 1281px){
+    .navbar{
+        font-size: 1.3125rem;
+    }
+    .navbar-slogan{
+        font-size: 1rem;
+    }
+}
 @media (max-width:825px) {
 
     .hamburger{
