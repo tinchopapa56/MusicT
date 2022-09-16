@@ -14,12 +14,15 @@
                     .ear3-li{
                         list-style: none;
                         margin: 0 0.75em;
-                        transition: 0.5s ease-in-out;
-                        cursor: pointer
+                        transition: ease-in-out;
+                        cursor: pointer;
+                        border-radius: 70%;
+                        padding: 1em 1.5em;
+                        background-color: #87BFFF;
                     }
                     .ear3-li:hover{
-                        color: #ddca7f;
-                        font-size: 1.5rem;
+                        color: #e4cd74;
+                        /* font-size: 1.5rem; */
                     }
 .main-grid{
     margin: 0 auto;
@@ -33,4 +36,9 @@
 .h2-subtitle{
     width: 8em;
     margin: 1em auto;
+}
+@media (min-width: 1281px) {
+    .ear3-li{
+        font-size: 1.5rem;
+    }
 }
