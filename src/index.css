@@ -6,9 +6,17 @@ body {
   font-family:'Poppins', 'sans-serif';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* font-size: 1rem; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (min-width:1281px) {
+  body{
+    font-size: 1.75rem;
+  }
+  
 }
